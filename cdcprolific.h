@@ -19,7 +19,7 @@ e-mail   :  support@circuitsathome.com
 
 #include "cdcacm.h"
 
-//#define PL2303_COMPAT // Uncomment it if you have compatibility problems
+#define PL2303_COMPAT // Uncomment it if you have compatibility problems
 
 #define PL_VID                                  0x067B
 #define CHECK_PID(pid)                          ( pid != 0x2303 && pid != 0x0609 )
